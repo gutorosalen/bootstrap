@@ -3,21 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Bootstrap</title>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1>Bootstrap 5</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus
-            enim id lectus feugiat, auctor dignissim felis bibendum. Sed auctor,
-            turpis at consectetur tristique, ligula felis ullamcorper justo, in
-            tristique ligula enim vel purus.
-          </p>
-        </div>
+    <nav>
+      <div id="Menu">
+        <a href="#">Home</a>
+        <a href="#">Ultimas Edições</a>
+        <a href="#">Requisítos para Participa</a>
       </div>
-    </div>
+      <button type="button">Login</button>
+    </nav>
+    <header>
+      <h1>Bootcamp DNC</h1>
+      <p>
+        Esse será um evento exclusivo para todos os alunos<br />
+        da DNC, que querem <b>acelerar a carreira</b> com uma <br />
+        semana intensiva de conteúdo de mercado entre<br />
+        <b>BACK-END FRONT-END & BANCO DE DADOS</b>
+      </p>
+    </header>
+    <form>
+      <div>
+        <label>Nome</label><br />
+        <input type="text" placeholder="Nome" required /><br />
+        <label>Email</label><br />
+        <input type="email" placeholder="Email" required /><br />
+        <label
+          >Area de interesse:
+          <div class="select">
+            <input type="radio" id="vehicle1" name="vehicle1" value="Bike" />
+            <label for="vehicle1"> I have a bike</label>
+            <input type="radio" id="vehicle2" name="vehicle2" value="Car" />
+            <label for="vehicle2"> I have a car</label>
+            <input type="radio" id="vehicle3" name="vehicle3" value="Boat" />
+            <label for="vehicle3"> I have a boat</label>
+          </div>
+        </label>
+        <label>Email</label><br />
+        <input type="email" placeholder="Email" required /><br />
+        <label>Telefone</label><br />
+        <input type="number" placeholder="(**)*****-****" required /><br />
+        <label>Insira uma frase criativa aqui</label><br />
+        <input type="text" placeholder="Digite sua frase" required /><br />
+        <button type="submit">Login</button>
+      </div>
+    </form>
   </body>
 </html>
