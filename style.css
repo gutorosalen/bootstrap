@@ -43,6 +43,7 @@ nav button {
   height: 35px;
   cursor: pointer;
   transform: rotateY(-12px);
+  margin: 40px 0px;
 }
 a {
   text-decoration: none;
@@ -151,4 +152,53 @@ button {
   margin-right: 10px;
   margin: 0;
   align-items: center;
+}
+footer {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(
+      to bottom Right,
+      var(--color-1) 20%,
+      rgb(7, 65, 73) 60%,
+      var(--color-2)
+    )
+    no-repeat;
+  margin: 0px;
+  padding: 10px 0px;
+  color: aliceblue;
+}
+footer .linha1 {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+footer nav {
+  height: auto;
+  width: 302px;
+  height: 330px;
+  background: none;
+  display: flex;
+  margin: 0px 10px;
+  padding: 0;
+  align-items: first baseline;
+  justify-content: center;
+}
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  margin-bottom: 30px;
+  padding: 0;
+}
+footer .linha2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
 }
